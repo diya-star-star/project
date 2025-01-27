@@ -93,7 +93,6 @@ function Header() {
                       Diabetes
                     </NavLink>
                   </li>
-                 
                   <li>
                     <NavLink
                       className="dropdown-item"
@@ -105,7 +104,16 @@ function Header() {
                 </ul>
               </li>
 
-             
+              {/* Login Button */}
+              <li className="nav-item me-3">
+                <NavLink
+                  to="/login"
+                  className="nav-link text-light"
+                  style={{ color: '#fff', backgroundColor: '#0077b6', borderRadius: '5px', padding: '8px 16px' }}
+                >
+                  Login
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
